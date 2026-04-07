@@ -95,7 +95,10 @@ const Calendar = () => {
     <div className="container">
       
       <div className="left">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" />
+<img 
+  src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" 
+  alt="calendar" 
+/>
         <h2>{format(today, "MMMM yyyy")}</h2>
       </div>
 
